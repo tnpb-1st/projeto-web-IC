@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tom's Portfolio</title>
+</head>
+    <body>
+        <header>
+            <img src="/images/computer_logo.jpg" alt="">
+
+            <div class="links">
+                <a href="index.html">Homepage</a>
+                
+                <div>
+                    <img src="images/browser.png" alt="about">
+                    <a href="portfolio.html" style="font-weight: bolder;">Portfolio</a>
+                </div>
+
+                <div>
+                    <img src="/images/profle.png" alt="profile"> 
+                    <a href="about.html">About</a>
+                </div>
+
+            </div>
+        </header>
+        
+        <section class="core-container">
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <p id="title">Wonderland</p>
+                <div class="description">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
+        </section>
+        <script>
+            const projects = document.querySelectorAll('.project')
+            for (project of projects) {
+                project.addEventListener('click', () => {
+                    window.open("https://www.wonderlandams.com/","blank")
+                })
+            }
+        </script>
+    </body>
+</html>
